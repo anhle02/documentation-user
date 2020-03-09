@@ -75,7 +75,7 @@ The rules are defined on the routes. In the inventory application, go to
 Here you can set the action which will be triggered by the rule, you
 have the choice between different ones:
 
--  **Pull From**: this rule will be triggered by a need for the product in a specific stock location. The need can come from a sale order which has been validated or for a manufacturing order which requires a specific component. When the need appears in the source location, Odoo generates a picking to fulfill this need thanks to the pull rule.
+-  **Pull From**: this rule will be triggered by a need for the product in a specific stock location. The need can come from a sale order which has been validated or for a manufacturing order which requires a specific component. When the need appears in the destination location, Odoo generates a picking to fulfill this need thanks to the pull rule.
 -  **Push To**: this rule will be triggered by the arrival of some products in the defined source location. In case you move products to the source location, Odoo generates a picking to move those products to the destination location.
 -  **Push & Pull**: it allows to generate a picking in the two different situations explained above, when products are required in a specific source location as well as when they are pushed to a specific source location.
 -  **Buy**: when products are needed the source location, a request for quotation is created to fulfill the need.
